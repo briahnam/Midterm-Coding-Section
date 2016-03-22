@@ -34,4 +34,8 @@ public class Staff extends Employee {
 		this.Title = Title;
 	}
 
+	public Staff() {
+		// TODO Auto-generated constructor stub
+	}
+
 }

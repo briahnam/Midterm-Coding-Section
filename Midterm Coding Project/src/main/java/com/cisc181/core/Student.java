@@ -9,15 +9,14 @@ public class Student extends Person {
 
 	private String Major;
 	private UUID StudentID;
+	private eMajor eMajor;
 	
-	public String getMajor ( )
-    {
-        return this.Major;
-    }
-    public void setMajor (String Major)
-    {
-        this.Major = Major;    
-    }
+	public eMajor geteMajor() {
+		return eMajor;
+	}
+	public void seteMajor(eMajor eMajor) {
+		this.eMajor = eMajor;
+	}
     
     public UUID getStudentID(){
     	return this.StudentID;
@@ -41,4 +40,5 @@ public class Student extends Person {
 	{
 		super.PrintName();
 	}
+	
 }

@@ -9,6 +9,12 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class Staff_Test {
+	ArrayList<String> staffList = new ArrayList<String>();
+	Staff staff1 = new Staff();
+	Staff staff2 = new Staff();
+	Staff staff3 = new Staff();
+	Staff staff4 = new Staff();
+	Staff staff5 = new Staff();
 
 	@BeforeClass
 	public static void setup() {
